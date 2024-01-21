@@ -1,0 +1,19 @@
+server:
+  port: 9999
+
+  
+  
+spring:
+#  application:
+#    name: SpringSecurityOaouth2.xApp
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            clientId: 1516857165771214
+            clientSecret: 34e4604ec7cc4ba4580928c6b3923b7c
+            scope:
+              - email
+              - public_profile
+          
